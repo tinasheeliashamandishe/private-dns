@@ -3,20 +3,24 @@
 <h2>Description</h2>
 This lab will configure Azure Private DNS.<br /><br />
 
-Azure Bastion is a fully managed Platform as a Service (PaaS) offering from Microsoft Azure that provides secure and seamless RDP and SSH connectivity to your virtual machines (VMs) directly from the Azure portal. It eliminates the need to expose VMs to the public internet or to maintain jump servers or bastion hosts in your virtual network.
-<br /><br />
-Azure Bastion acts as a bridge between your virtual network and the Azure management portal, allowing you to securely connect to your VMs over Remote Desktop Protocol (RDP) or Secure Shell (SSH) directly within the Azure portal interface, without the need for a public IP address on the VMs or VPN connections. This enhances security by reducing exposure to the public internet and simplifies remote access management for administrators.
-<br /><br />
-Key features of Azure Bastion include:
-<br /><br />
-<b>Secure Access:</b> Azure Bastion provides secure and seamless RDP and SSH access to your VMs in Azure without exposing them to the public internet.<br />
-<b>Fully Managed Service:</b> Azure Bastion is a fully managed PaaS offering, eliminating the need for you to manage bastion hosts or jump servers in your virtual network.<br />
-<b>Integrated Experience:</b> You can access your VMs using RDP or SSH directly from the Azure portal interface, providing a centralized and streamlined management experience.<br />
-<b>Zero Public IP Requirement:</b> VMs do not require a public IP address for RDP or SSH access, reducing the attack surface and simplifying network security.
-<br />
-<br />
-Overall, Azure Bastion simplifies and enhances the security of remote access to VMs in Azure, providing a convenient and secure way for administrators to manage their virtual infrastructure.
+Azure Private DNS is a service that allows you to manage and resolve DNS names within a virtual network (VNet) in Azure. It enables you to create and manage private DNS zones that are only accessible within your Azure environment, making it ideal for internal applications and services.<br /><br />
 
+
+Key Features of Azure Private DNS:<br />
+
+<b>Private DNS Zones:</b> Create DNS zones that are not accessible from the public internet, allowing you to define and manage domain names used by your applications.
+<br />
+<b>Integration with Virtual Networks:</b> Automatically resolve DNS names for resources within the same virtual network or across peered VNets, facilitating seamless communication.
+<br />
+Custom DNS Records: Supports various DNS record types, including A, AAAA, CNAME, and TXT, allowing you to tailor the DNS configuration to your needs.
+<br />
+Private Link Integration: Works well with Azure Private Link, allowing you to connect services privately without exposing them to the public internet.
+<br />
+DNS Resolution: Provides efficient DNS resolution for resources within Azure, reducing latency and improving performance for internal applications.
+<br />
+Access Control: You can control access to DNS zones and records, ensuring that only authorized users and services can manage DNS configurations.
+<br />
+Hybrid Connectivity: Supports hybrid cloud scenarios, allowing integration with on-premises DNS solutions using VPNs or Azure ExpressRoute.
 
 
 <h2>Environments Used </h2>
