@@ -39,12 +39,12 @@ We will configure an azure private dns service, so that resources in the VN can 
 <h4>Step 1</h4> 
 Create a Private DNS Zone.<br/>
 <img src="https://i.imgur.com/hlsO0PS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<h4>Step 3</h4> 
 
 <h4>Step 2</h4> 
 In your private DNS Zone. Link it to your VN.<br/>
 <img src="https://i.imgur.com/TtmcQnQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/q5ap1Dy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><br/>
+<img src="https://i.imgur.com/q5ap1Dy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><br/><br/>
+
 Use auto registration to ensure that your VMs are automatically aded to the record sets.
 <img src="https://i.imgur.com/2PEsAfV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
