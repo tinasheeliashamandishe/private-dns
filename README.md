@@ -12,15 +12,15 @@ Key Features of Azure Private DNS:<br />
 <br />
 <b>Integration with Virtual Networks:</b> Automatically resolve DNS names for resources within the same virtual network or across peered VNets, facilitating seamless communication.
 <br />
-Custom DNS Records: Supports various DNS record types, including A, AAAA, CNAME, and TXT, allowing you to tailor the DNS configuration to your needs.
+<b>Custom DNS Records:</b> Supports various DNS record types, including A, AAAA, CNAME, and TXT, allowing you to tailor the DNS configuration to your needs.
 <br />
-Private Link Integration: Works well with Azure Private Link, allowing you to connect services privately without exposing them to the public internet.
+<b>Private Link Integration:</b> Works well with Azure Private Link, allowing you to connect services privately without exposing them to the public internet.
 <br />
-DNS Resolution: Provides efficient DNS resolution for resources within Azure, reducing latency and improving performance for internal applications.
+<b>DNS Resolution:</b> Provides efficient DNS resolution for resources within Azure, reducing latency and improving performance for internal applications.
 <br />
-Access Control: You can control access to DNS zones and records, ensuring that only authorized users and services can manage DNS configurations.
+<b>Access Control:</b> You can control access to DNS zones and records, ensuring that only authorized users and services can manage DNS configurations.
 <br />
-Hybrid Connectivity: Supports hybrid cloud scenarios, allowing integration with on-premises DNS solutions using VPNs or Azure ExpressRoute.
+<b>Hybrid Connectivity:</b> Supports hybrid cloud scenarios, allowing integration with on-premises DNS solutions using VPNs or Azure ExpressRoute.
 
 
 <h2>Environments Used </h2>
