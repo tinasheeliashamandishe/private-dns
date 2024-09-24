@@ -31,8 +31,9 @@ Key Features of Azure Private DNS:<br />
 
 <p align="center">
 <h4>Topology</h4>
-Below, we have created a VM. This VM has no public IP address. Ware going to use Azure to log onto the VM<br/>
-<img src="https://i.imgur.com/bhbcrm3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Below, we have created a VN. This VN has 2 subnets. <br/>
+We will configure an azure private dns service, so that resources in the VN can communicate using FQDNs.
+<img src="https://i.imgur.com/EJ6N21j.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 
 <h4>Step 1</h4> 
