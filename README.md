@@ -32,21 +32,24 @@ Key Features of Azure Private DNS:<br />
 <p align="center">
 <h4>Topology</h4>
 Below, we have created a VN. This VN has 2 subnets. <br/>
-We will configure an azure private dns service, so that resources in the VN can communicate using FQDNs.
+We will configure an azure private dns service, so that resources in the VN can communicate using FQDNs.<br/>
 <img src="https://i.imgur.com/EJ6N21j.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 
 <h4>Step 1</h4> 
-Create a Bastion subnet.<br/>
-<img src="https://i.imgur.com/M5MkGaP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Create a Private DNS Zone.<br/>
+<img src="https://i.imgur.com/hlsO0PS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <h4>Step 3</h4> 
 
 <h4>Step 2</h4> 
-Configure Bastion.<br/>
-<img src="https://i.imgur.com/YnUlt3I.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<h4>Step 3</h4>
+In your private DNS Zone. Link it to your VN.<br/>
+<img src="https://i.imgur.com/TtmcQnQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/q5ap1Dy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><br/>
+Use auto registration to ensure that your VMs are automatically aded to the record sets.
+<img src="https://i.imgur.com/2PEsAfV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 
 <h4>Step 3</h4> 
-Log into the VM.<br/>
-<img src="https://i.imgur.com/tmw9F3Z.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/Vtbz3yY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+After the setup is doen your VMs can communicate using FQDNs..<br/>
+<img src="https://i.imgur.com/HkfDJ4W.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
