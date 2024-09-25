@@ -50,6 +50,6 @@ Use auto registration to ensure that your VMs are automatically aded to the reco
 
 
 <h4>Step 3</h4> 
-After the setup is doen your VMs can communicate using FQDNs..<br/>
+After the setup is doen your VMs can communicate using FQDNs.<br/>
 <img src="https://i.imgur.com/HkfDJ4W.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
